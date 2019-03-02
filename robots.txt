@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-SITEMAP: https://diggerhire.github.io/sitemap.txt
+SITEMAP: https://diggerhire.github.io/sitemap.xml

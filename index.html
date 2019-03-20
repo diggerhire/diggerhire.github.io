@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html amp>
 <head>
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<amp-analytics type="gtag" data-credentials="include">
-<script type="application/json">
-{
-  "vars" : {
-    "gtag_id": "UA-135472455-1",
-    "config" : {
-      "UA-135472455-1": { "groups": "default" }
-    }
-  }
-}
-</script>
-</amp-analytics>
+
 
   <!-- Site made with Mobirise Website Builder v4.9.1, https://mobirise.com -->
   <meta charset="UTF-8">
@@ -238,10 +226,23 @@ background-color: #FF6600
   <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
   <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-  
+
   
 </head>
 <body>
+
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "UA-135472455-1",
+    "config" : {
+      "UA-135472455-1": { "groups": "default" }
+    }
+  }
+}
+</script>
+</amp-analytics>
 
 <div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-rhbYOKcaKw" layout="nodisplay" side="right">
         <div class="builder-sidebar" id="builder-sidebar">

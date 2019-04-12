@@ -241,12 +241,12 @@ background-color: #FF6600
     }
   },
       "triggers": {
-        "Call for Quote": {
-          "selector": "[href^='tel:']",
+        "CallClick": {
+          "selector": "a[href^='tel:']",
           "on": "click",
           "vars": {
-            "event_name": "Call",
-            "method": "Number"
+            "event_category": "Call",
+            "event_action": "click"
           }
         }
       }
